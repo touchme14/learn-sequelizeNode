@@ -16,11 +16,11 @@ router.get('/', (req, res) =>
 //Add a gig 
 router.get('/add', (req, res) => {
     const data = {
-        id : '3',
-        name : 'Thuy Van',
-        age : '22',
-        country : 'Vietnam',
-        city : 'Ben Tre'
+        id : '1',
+        name : 'cheater',
+        age : '221',
+        country : 'Indonesia',
+        city : 'Pekalongan'
     }
 
     let {id, name, age, country, city} = data;
