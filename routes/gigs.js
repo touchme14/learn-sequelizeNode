@@ -36,28 +36,8 @@ list.create({
 
     })
         .then(list => res.redirect('/gigs'))
-        .catch(err => consloe.log(err))
+        .catch(err => console.log(err))
 })
 
-// Database
-/*const list = dbtest.define('list', {
-    id: {
-        type: Sequelize.STRING
-    },
-    name: {
-        type: Sequelize.STRING
-    },
-    age: {
-        type: Sequelize.STRING
-    },
-    country: {
-        type: Sequelize.STRING
-    },
-    city: {
-        type: Sequelize.STRING
-    }
-}
 
-);
-*/
 module.exports = router;
